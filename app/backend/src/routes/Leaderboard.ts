@@ -3,7 +3,7 @@ import LeaderboardController from '../controllers/Leaderboard';
 
 const router = Router();
 
-// router.get('/', LeaderboardController.getLeaderboard);
+router.get('/', LeaderboardController.getAllLeaderBoard);
 
 router.get('/home', LeaderboardController.getHomeLeaderboard);
 
